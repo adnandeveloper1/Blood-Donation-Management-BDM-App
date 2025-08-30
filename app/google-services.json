@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "979934729664",
+    "project_id": "bds-dms-app-e9642",
+    "storage_bucket": "bds-dms-app-e9642.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979934729664:android:225567129183c943efa425",
+        "android_client_info": {
+          "package_name": "com.example.bdsdmsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIjjQMU_22xJXY3DdJHPG9rP9xltZHwVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

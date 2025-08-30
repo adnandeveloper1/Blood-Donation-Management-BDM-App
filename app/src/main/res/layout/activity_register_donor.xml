@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FFF3E0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+
+        <!-- Donor Name -->
+        <EditText
+            android:id="@+id/etDonorName"
+            android:hint="Donor Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Father Name -->
+        <EditText
+            android:id="@+id/etFatherName"
+            android:hint="Father Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- CNIC -->
+        <EditText
+            android:id="@+id/etCNIC"
+            android:hint="CNIC/ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <!-- Gender -->
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+        </RadioGroup>
+
+        <!-- Date of Birth with Date Picker -->
+        <EditText
+            android:id="@+id/etDOB"
+            android:hint="Date of Birth"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Blood Group -->
+        <Spinner
+            android:id="@+id/spinnerBloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- City -->
+        <EditText
+            android:id="@+id/etCity"
+            android:hint="City"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Address -->
+        <EditText
+            android:id="@+id/etAddress"
+            android:hint="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Phone -->
+        <EditText
+            android:id="@+id/etPhone"
+            android:hint="Phone / WhatsApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+
+        <!-- Last Donation Date with Date Picker -->
+        <EditText
+            android:id="@+id/etLastDonation"
+            android:hint="Last Donation Date"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Donation Count -->
+        <EditText
+            android:id="@+id/etDonationCount"
+            android:hint="Total Donations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <!-- Weight -->
+        <EditText
+            android:id="@+id/etWeight"
+            android:hint="Weight (kg)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <!-- Medical Condition -->
+        <EditText
+            android:id="@+id/etMedical"
+            android:hint="Medical Conditions (if any)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSaveDonor"
+            android:text="Register Donor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF0000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>

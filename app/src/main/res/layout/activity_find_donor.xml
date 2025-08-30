@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#FFF3E0">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔍 Search Blood Donor"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#D32F2F"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Spinner for Blood Group -->
+    <Spinner
+        android:id="@+id/spinnerSearchBloodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp" />
+
+    <!-- Button to Search -->
+    <Button
+        android:id="@+id/btnSearchDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Donor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"
+        android:padding="12dp" />
+
+    <!-- ListView to Show Results -->
+    <ListView
+        android:id="@+id/listViewDonors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#BDBDBD"
+        android:dividerHeight="1dp"
+        android:background="#FFFFFF"
+        android:padding="8dp" />
+
+</LinearLayout>

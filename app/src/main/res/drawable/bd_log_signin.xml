@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="640dp"
+    android:viewportWidth="360"
+    android:viewportHeight="640">
+
+    <!-- White background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0h360v640h-360z" />
+
+    <!-- Purple bottom wave -->
+    <path
+        android:fillColor="#D5372B"
+        android:pathData="M0,520 C120,600 240,440 360,520 L360,640 L0,640 Z" />
+
+    <!-- Purple top wave (flipped version) -->
+    <path
+        android:fillColor="#D5372B"
+        android:pathData="M0,120 C120,40 240,200 360,120 L360,0 L0,0 Z" />
+</vector>
